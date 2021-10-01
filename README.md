@@ -46,7 +46,7 @@ roberta-base 則是他的子體  <br>
 詳細一點的可以去CSDN看看 <br>
 [NLP之常用預訓練模型詳解](https://blog.csdn.net/qq_36722887/article/details/118191949)
 
-![image](https://github.com/ElegonYang/NLP_Text-categorization/blob/main/001.jpg)
+![image](https://github.com/ElegonYang/NLP_Text-categorization/blob/main/jpgs/001.jpg)
 
 <2> 38, 60 <br>
 
@@ -65,7 +65,7 @@ epoch就是讀完全部訓練資料一次的次數<br>
 當 epoch=2時 訓練就完成了!<br>
 運行起來大概就是下面這樣 <br>
 
-![image](https://github.com/ElegonYang/NLP_Text-categorization/blob/main/1631769938041.gif)
+![image](https://github.com/ElegonYang/NLP_Text-categorization/blob/main/jpgs/1631769938041.gif)
 
 
 
