@@ -43,6 +43,8 @@ roberta-base 則是他的子體  <br>
 比如說他們訓練的語料 如英文\小寫英文\不分大小寫的英文\中文\他國語言等  <br>
 可以依照自己的任務需求 去選擇自己最是適合的模型  <br>
 以下是預訓練模型的關鍵字 <br>
+詳細一點的可以去CSDN看看 <br>
+[NLP之常用預訓練模型詳解](https://blog.csdn.net/qq_36722887/article/details/118191949)
 
 ![image](https://github.com/ElegonYang/NLP_Text-categorization/blob/main/001.jpg)
 
@@ -61,8 +63,9 @@ epoch就是讀完全部訓練資料一次的次數<br>
 這樣執行時 他一次會拿一筆資料 共拿十次 <br>
 拿完十次後 epoch+1 開始進行第二次"拿十次"的動作<br>
 當 epoch=2時 訓練就完成了!<br>
+運行起來大概就是下面這樣 <br>
 
-
+![image](https://github.com/ElegonYang/NLP_Text-categorization/blob/main/1631769938041.gif)
 
 
 
