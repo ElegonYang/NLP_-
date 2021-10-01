@@ -42,6 +42,9 @@ roberta-base 則是他的子體  <br>
 子體簡單來說就是會有一些小功能的改變  <br>
 比如說他們訓練的語料 如英文\小寫英文\不分大小寫的英文\中文\他國語言等  <br>
 可以依照自己的任務需求 去選擇自己最是適合的模型  <br>
+以下是預訓練模型的關鍵字 <br>
+
+![image](https://github.com/ElegonYang/NLP_Text-categorization/blob/main/001.jpg)
 
 <2> 38, 60 <br>
 
