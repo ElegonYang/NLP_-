@@ -4,6 +4,11 @@
 *SimpleTransformers*
 基於Transformers所改寫的簡易版套件<br> 
 可以簡單的導入以及驗證訓練模型 <br> 
+以下是pip install方法 <br> 
+
+```pip
+pip install simpletransformers
+```
 
 
 # 可利用標籤後的資料 進行訓練  <br>讓模型可以依照標籤的規則去判斷結果
@@ -23,6 +28,36 @@
 如果你有NVIDIA的顯示卡 這樣會事半功倍 <br>
 請先下載CUDA相關套件 以及pytorch <br>
 要注意 CUDA <=> pytorch 之間有支援性問題 <br> 
+請先用以下code測試自己的cuda有沒有安裝好 <br>
+
+```python
+import torch
+print(torch.cuda.is_available())
+print(torch.cuda.current_device())
+print(torch.cuda.device(0))
+
+```
+
+若有支援,應該輸出類似下方的字樣:
+
+```python
+True
+0
+<torch.cuda.device object at 0x0000024A91A63130>
+```
+如果沒有的話<br>
+這邊提供pip的安裝方法 讓你一次搞定<br>
+
+```pip
+pip install torch==1.8.0+cpu torchvision==0.9.0+cpu torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+```
+
+安裝完要重新開機 <br>
+基本上所有NV的卡都支援 <br>
+當然越舊算力會越差<br>
+
+沒有顯示卡也沒關係 但是訓練速度會比較慢就是了 <br> 
+訓練和預測參數設定裡都將 use_cuda 設為 False 即可
 
 # 使用方式-1 
 
