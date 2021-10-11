@@ -1,8 +1,8 @@
 # NLP_Text-categorization
 
 這次分享的是在前陣子競賽 以及資策會期末專題中使用的NLP相關套件 <br> 
-*SimpleTransformers*
-基於Transformers所改寫的簡易版套件<br> 
+*SimpleTransformers*<br>
+他是基於Transformers所改寫的簡易版套件<br> 
 可以簡單的導入以及驗證訓練模型 <br> 
 以下是pip install方法 <br> 
 
